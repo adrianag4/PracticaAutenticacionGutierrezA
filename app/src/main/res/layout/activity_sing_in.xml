@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/rosa"
+    tools:context=".SingInActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="¡Regístrate!"/>
+
+    <EditText
+        android:id="@+id/etrEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:hint="Correo electrónico"/>
+
+    <EditText
+        android:id="@+id/etrPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:hint="Contraseña"/>
+
+    <EditText
+        android:id="@+id/etrConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:hint="Confirmar contraseña"/>
+
+    <TextView
+        android:id="@+id/tvrError"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@color/rojo"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        android:text="Registrar"/>
+
+</LinearLayout>

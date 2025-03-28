@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/rosa"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/img_login"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:hint="Correo electrónico"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:hint="Contraseña"/>
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@color/rojo"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"/>
+    
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        android:text="Entrar"/>
+
+    <Button
+        android:id="@+id/btnGoRegister"
+        android:text="Registrar"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:background="@color/transparente"
+        />
+</LinearLayout>
