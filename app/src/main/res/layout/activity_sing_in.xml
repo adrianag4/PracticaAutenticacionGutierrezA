@@ -50,6 +50,7 @@
         android:layout_height="48dp"
         android:textColor="@color/rojo"
         android:layout_marginTop="20dp"
+        android:textAlignment="center"
         android:visibility="invisible"/>
 
     <Button
